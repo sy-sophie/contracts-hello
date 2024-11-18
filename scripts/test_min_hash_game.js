@@ -6,7 +6,7 @@ const ALCHEMY_SEPOLIA_URL = 'https://eth-sepolia.g.alchemy.com/v2/q_pvI4xlNg1dH7
 const provider = new ethers.JsonRpcProvider(ALCHEMY_SEPOLIA_URL);
 
 // 使用合约所有者的私钥
-const ownerPrivateKey = '7ca1970e94a2aecf4c3dd791b6b1d04735bc98cc26d248ffb64eefde879cf5f8';
+const ownerPrivateKey = '';
 const ownerWallet = new ethers.Wallet(ownerPrivateKey, provider);
 
 // 创建随机的 wallet 对象
